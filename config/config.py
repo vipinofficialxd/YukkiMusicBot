@@ -168,11 +168,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/928408f5ebb1e060a3d8e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/279a587aa63584f79c662.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/928408f5ebb1e060a3d8e.jpg",
+    "https://telegra.ph/file/279a587aa63584f79c662.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
