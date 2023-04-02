@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "16051908"))
+API_HASH = getenv("API_HASH", "abf9b83f9ca40cf9f5ba9bf6e6afaa8b")
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,10 +37,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001898101211"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Divine Music")
 
 # Your User ID.
 OWNER_ID = list(
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamYukki/YukkiMusicBot",
+    "https://github.com/vipinofficialxd/YukkiMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
